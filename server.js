@@ -49,10 +49,6 @@ app.get("/bfhl", (req, res) => {
   res.json({ operation_code: 1 });
 });
 
-// app.post((req, res) => {
-//     const []
-// })
-
 app.listen(PORT, () => {
   console.log("Server running on port: ", PORT);
 });
